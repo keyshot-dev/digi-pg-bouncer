@@ -7,7 +7,7 @@ on:
   pull_request:
 
 env:
-  REGISTRY: ghcr.io
+  REGISTRY: digizuite.azurecr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
