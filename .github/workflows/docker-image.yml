@@ -1,10 +1,7 @@
 name: Docker build + push
 
 on:
-  schedule:
-    - cron: "0 10 * * *"
   push:
-  pull_request:
 
 env:
   REGISTRY: digizuite.azurecr.io
